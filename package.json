@@ -1,0 +1,38 @@
+{
+  "name": "monagree-fct-locs",
+  "version": "1.0.0",
+  "description": "All Area councils and Wards in FCT, Nigeria (with GPS coordinates)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "readme.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monagree/monagree-fct-locs.git"
+  },
+  "keywords": [
+    "countries",
+    "Monagree",
+    "Nigeria",
+    "States",
+    "LGAs",
+    "GPS",
+    "Location"
+  ],
+  "author": "Monagree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monagree/monagree-fct-locs/issues"
+  },
+  "homepage": "developers.monagree.com",
+  "devDependencies": {
+    "@types/node": "^20.10.8",
+    "typescript": "^5.3.3"
+  }
+}
